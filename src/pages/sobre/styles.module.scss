@@ -1,0 +1,36 @@
+.content{
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 1120px;
+    padding: 0 2rem;
+}
+
+.containerHeader{
+    margin: 5rem auto 0;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--blue-900);
+    border-image: linear-gradient(95deg, #31b4d0, transparent) 1;
+
+    h1{
+        color: var(--white);
+        line-height: 4rem;
+        font-size: 3.4rem;
+    }
+    p{
+        margin-top: 2rem;
+        color: var(--white);
+    }
+
+}
+.div{
+    margin-bottom: 10rem;
+}
+.link{
+    color: var(--white);
+    
+    a{
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+}
